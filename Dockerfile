@@ -35,7 +35,7 @@ ENV HOME=/app
 WORKDIR /app
 RUN chgrp -R 0 /app && chmod -R g=u /app && chmod o+wr /app
 USER 1001
-
+# yes
 # create a volume for temporary data
 VOLUME /tmp
 
